@@ -1,0 +1,50 @@
+@font-face {
+   font-family: Ulm Grotesk;
+   src: url(./font/UlmGrotesk-Medium.otf);
+}
+
+@font-face {
+   font-family: Ulm Grotesk Regular;
+   src: url(./font/UlmGrotesk-Regular.otf);
+}
+
+* {
+   font-family: Ulm Grotesk;
+}
+
+body {
+  font-family: Ulm Grotesk;
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/img/cloud1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background: transparent !important;
+}
+
+.container {
+  margin-top: 0px;
+}
+
+
+.weather-heading {
+  font-size: 150px;
+  letter-spacing: 80px;
+  color: #3d6377;
+  text-align: center
+}
+
+h4 {
+  color:rgb(254, 237, 63);
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn {
+  background-color:rgb(202, 65, 43);
+  color: #fff;
+}
