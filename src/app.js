@@ -4,6 +4,8 @@ const hbs = require('hbs');
 const map = require('./utils/geocode');
 const forcast = require('./utils/weather');
 
+
+const port = process.env.PORT || 7777;
 const app = express();
 
 // define paths for express config
@@ -79,6 +81,6 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(7777, () => {
-  console.log('Server is running on port 7777');
+app.listen(port, () => {
+  console.log('Server is running on port ' + port);
 });

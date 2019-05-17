@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('.weatherContent').hide();
     $('.pleaseWait').show();
     $.ajax({
-      url: `http://localhost:7777/weather?address=${forcast_location}`,
+      url: `/weather?address=${forcast_location}`,
       type: "get", //send it through get method
       data: {
         name:'Veer',
