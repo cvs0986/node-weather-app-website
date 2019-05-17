@@ -12,7 +12,7 @@ const viewsPath = path.join(__dirname, '../public/templates/views/');
 const partialsPath = path.join(__dirname, '../public/templates/partials/');
 
 
-// Setup handlebars engine and views location 
+// Setup handlebars engine and views locations
 app.set('view engine', 'hbs');
 app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
