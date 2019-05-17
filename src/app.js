@@ -5,7 +5,7 @@ const map = require('./utils/geocode');
 const forcast = require('./utils/weather');
 
 
-const port = process.env.PORT || 7777;
+const port = process.env.PORT || 7777
 const app = express();
 
 // define paths for express config
